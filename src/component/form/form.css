@@ -1,0 +1,63 @@
+.add-form {
+  background-color: #e5771f;
+  padding: 2.8rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.inputContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.numberList,
+.itemInput,
+.buttonAdd {
+  background-color: #ffebb3;
+  color: #5a3e2b;
+  font-family: inherit;
+  border: none;
+  border-radius: 10rem;
+  padding: 1.2rem 3.2rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.add-form button {
+  text-transform: uppercase;
+  background-color: #76c7ad;
+}
+@media (max-width: 59em) {
+  .numberList {
+    padding: 1.2rem;
+  }
+  .itemInput {
+    width: 14rem;
+  }
+}
+@media (max-width: 34em) {
+  .numberList {
+    padding: 1.2rem 3rem;
+  }
+}
+
+@media (max-width: 32em) {
+  .add-form {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .itemInput {
+    padding: 1rem;
+  }
+  .numberList,
+  .buttonAdd {
+    padding: 0.5rem 3rem;
+  }
+}
+
+@media (max-width: 25.6rem) {
+  h3 {
+    font-size: 2rem;
+  }
+}
